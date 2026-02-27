@@ -101,6 +101,5 @@ body{
   display: block;
 }
 .hero--image .hero__media{
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
 }
