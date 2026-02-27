@@ -102,3 +102,7 @@ body{
   margin-left: auto;
   text-align: right;
 }
+.hero--image{
+  display: flex;
+  justify-content: flex-end;
+}
