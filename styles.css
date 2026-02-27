@@ -1,0 +1,80 @@
+body { background: red !important; }
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{ background: red !important; \}\
+:root\{\
+  --bg: #F9EFE5;\
+  --text: #111111;\
+  --accent: #7ACCFD;\
+\}\
+\
+*\{ box-sizing: border-box; \}\
+html, body\{ margin:0; padding:0; \}\
+body\{\
+  font-family: "Source Serif 4", serif;\
+  background: var(--bg);\
+  color: var(--text);\
+\}\
+\
+/* NAV */\
+.nav\{\
+  display:flex;\
+  align-items:flex-start;\
+  justify-content:space-between;\
+  padding: 32px 56px;\
+\}\
+\
+.brand__logo\{\
+  height: 22px; /* adjust later */\
+  width: auto;\
+  display:block;\
+\}\
+\
+.nav__links a\{\
+  text-decoration:none;\
+  color: var(--text);\
+  font-size: 14px;\
+  margin-left: 28px;\
+\}\
+\
+/* HERO */\
+.hero\{\
+  padding: 80px 56px 40px;\
+  display:grid;\
+  grid-template-columns: 1.2fr 0.8fr;\
+  gap: 48px;\
+  align-items:start;\
+\}\
+\
+.hero h1\{\
+  font-weight: 500;\
+  font-size: 64px;\
+  line-height: 1.05;\
+  letter-spacing: -0.03em; /* your \'93tight\'94 vibe */\
+  margin:0;\
+  max-width: 18ch;\
+\}\
+\
+.accent\{ color: var(--accent); \}\
+\
+.hero__media\{\
+  justify-self:end;\
+  text-align:right;\
+\}\
+\
+.hero__image\{\
+  width: 420px;\
+  max-width: 100%;\
+  height: auto;\
+  display:block;\
+\}\
+\
+.hero__caption\{\
+  margin: 10px 0 0;\
+  font-size: 12px;\
+\}}
