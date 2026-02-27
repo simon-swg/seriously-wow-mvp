@@ -151,3 +151,17 @@ body{
   text-align: right;
   max-width: 12ch;
 }
+.split__left{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.split__left .display{
+  font-weight: 600;
+  font-size: clamp(60px, 6.5vw, 120px);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  text-align: right;
+  max-width: 12ch;
+  margin: 0;
+}
