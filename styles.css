@@ -131,3 +131,7 @@ body{
   height: auto;
   display: block;
 }
+.split__right{
+  display: flex;
+  justify-content: flex-end;
+}
