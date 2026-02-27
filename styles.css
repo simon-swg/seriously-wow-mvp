@@ -65,7 +65,8 @@ body{
 .accent{ color: var(--accent); }
 
 .hero__media{
-  justify-self:end;
+  position: relative;
+  right: -80px;   /* pushes it outward */
   text-align:right;
 }
 
