@@ -54,12 +54,12 @@ body{
 }
 
 .hero h1{
-  font-weight: 600;
-  font-size: clamp(52px, 5.5vw, 104px);
-  line-height: 0.92;
-  letter-spacing: -0.035em;
+  font-weight: 500;                     /* Medium */
+  font-size: clamp(60px, 6.5vw, 120px);  /* Larger */
+  line-height: 0.9;                     /* Tighter vertically */
+  letter-spacing: -0.045em;             /* Tighter tracking */
   margin: 0;
-  max-width: 16ch;
+  max-width: 15ch;
 }
 
 .accent{ color: var(--accent); }
