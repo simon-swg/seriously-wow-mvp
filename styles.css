@@ -66,8 +66,8 @@ body{
 
 .hero__media{
   position: relative;
-  right: -80px;   /* pushes it outward */
-  text-align:right;
+  margin-right: 56px;   /* restores a designed gutter */
+  text-align: right;
 }
 
 .hero__image{
