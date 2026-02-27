@@ -138,6 +138,9 @@ body{
 .split__left{
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;   /* pushes text lower */
+  padding-bottom: 40px;    /* fine vertical control */
+}
 }
 
 .split__left .display{
