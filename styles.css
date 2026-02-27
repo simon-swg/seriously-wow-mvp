@@ -91,3 +91,7 @@ body{
   }
   .hero__media{ justify-self:start; text-align:left; }
 }
+.hero h1{
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+}
