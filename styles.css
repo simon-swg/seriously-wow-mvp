@@ -98,7 +98,7 @@ body{
 .split{
   padding: 80px 80px 60px;
   display: grid;
-  grid-template-columns: minmax(420px, 520px) 1fr; /* controls “hug” on wide screens */
+  grid-template-columns: minmax(420px, 520px) max-content; /* controls “hug” on wide screens */
   gap: 24px;                                       /* prevents touching on narrow */
   align-items: start;
 }
