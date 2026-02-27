@@ -64,11 +64,9 @@ body{
 
 .accent{ color: var(--accent); }
 
-.hero__image{
-  width: 70vw;      /* BIG: scales with browser width */
-  max-width: none;  /* allow it to exceed its column */
-  height: auto;
-  display: block;
+.hero--image .hero__image{
+  width: 900px;
+  max-width: 100%;
 }
 
 .hero__image{
