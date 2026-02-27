@@ -109,3 +109,25 @@ body{
 .hero--image{
   padding-top: 20px;
 }
+.split{
+  padding: 80px 80px 60px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.display{
+  font-weight: 500;
+  font-size: clamp(38px, 3.5vw, 64px);
+  line-height: 0.92;
+  letter-spacing: -0.035em;
+  margin: 0;
+}
+
+.split__image{
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+}
