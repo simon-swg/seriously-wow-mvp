@@ -168,3 +168,6 @@ body{
   max-width: 12ch;
   margin: 0;
 }
+.split__left .display{
+  margin-right: -24px;
+}
