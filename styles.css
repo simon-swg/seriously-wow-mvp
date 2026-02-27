@@ -39,6 +39,9 @@ body{
   font-size: 14px;
   margin-left: 28px;
 }
+.split{
+  gap: 24px !important;
+}
 
 .nav__links a:hover{
   text-decoration: underline;
