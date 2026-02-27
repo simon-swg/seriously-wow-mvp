@@ -64,10 +64,11 @@ body{
 
 .accent{ color: var(--accent); }
 
-.hero__media{
-  position: relative;
-  margin-right: 56px;   /* restores a designed gutter */
-  text-align: right;
+.hero__image{
+  width: 70vw;      /* BIG: scales with browser width */
+  max-width: none;  /* allow it to exceed its column */
+  height: auto;
+  display: block;
 }
 
 .hero__image{
