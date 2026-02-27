@@ -165,3 +165,6 @@ body{
     max-width: none;
   }
 }
+.split__right{
+  justify-self: end;
+}
