@@ -165,8 +165,3 @@ body{
   max-width: 12ch;
   margin: 0;
 }
-.split{
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
