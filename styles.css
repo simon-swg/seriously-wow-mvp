@@ -115,7 +115,7 @@ body{
 .split{
   padding: 80px 80px 60px;
   display: grid;
-  grid-template-columns: 520px 1fr;
+  grid-template-columns: 420px 1fr;
   gap: 40px;
   align-items: start;
 }
